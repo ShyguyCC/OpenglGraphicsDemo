@@ -1,0 +1,7 @@
+﻿  Main.cpp
+d:\1 place for uni work\openglshaderproject\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\1 place for uni work\openglshaderproject\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+d:\1 place for uni work\openglshaderproject\openglshaderproject\game.h(60): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  d:\1 place for uni work\openglshaderproject\openglshaderproject\game.h(60): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  OpenGLShaderProject.vcxproj -> D:\1 place for uni work\OpenGLShaderProject\Debug\OpenGLShaderProject.exe
+  OpenGLShaderProject.vcxproj -> D:\1 place for uni work\OpenGLShaderProject\Debug\OpenGLShaderProject.pdb (Partial PDB)

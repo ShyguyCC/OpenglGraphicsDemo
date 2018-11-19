@@ -1,0 +1,19 @@
+This is the config, if you feel like you are able to change these vaules go ahead, if not please leave them alone.
+Please dont change the words as they are key words and if they are changed the program wont work.
+
+
+RedSize=8
+GreenSize=8
+BlueSize=8
+AlphaSize=8
+BufferSize=32
+DoubleBuffer=1
+ContextProfile=Compatibility
+ContextMajorVer=3
+ContextMinorVer=3
+WindowName=Ciarans First Window
+WindowWidth=1024
+WindowLength=768
+FullScreen=False
+
+

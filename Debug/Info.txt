@@ -1,0 +1,4 @@
+GL Render: GeForce GTX 780 Ti/PCIe/SSE2
+GL Version: 3.3.0 NVIDIA 384.94
+GL Shading Language Version: 3.30 NVIDIA via Cg compiler
+Please use the infomation above to choice if you would like features like: Full Screen, high resolution and many others.
