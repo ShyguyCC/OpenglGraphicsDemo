@@ -4,22 +4,30 @@ d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\
   CameraClass.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
-  FileReadNWrite.cpp
   Game.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\game.h(60): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\game.h(60): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
-  GameState.cpp
   GameWindow.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
-d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\gamewindow.cpp(226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\gamewindow.cpp(227): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   GridClass.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\gridclass.cpp(163): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
   InputManager.cpp
+d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\inputmanager.cpp(145): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\inputmanager.cpp(146): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   LightClass.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
@@ -28,7 +36,6 @@ d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\game.h(60): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\game.h(60): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
-  MathsClass.cpp
   MenuState.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
@@ -52,7 +59,6 @@ d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\
           [
               T=float
           ]
-  Player.cpp
   QuadClass.cpp
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
   d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
@@ -75,11 +81,9 @@ d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\
           ]
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\textclass.cpp(104): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\textclass.cpp(123): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
-  TextureClass.cpp
   Generating code
-d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\model.cpp(324): warning C4715: 'Model::LoadModel': not all control paths return a value
-  894 of 908 functions (98.5%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  22 of 910 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   OpenGLShaderProject.vcxproj -> D:\Everything\Games N Such Tested\GitHubStuffs\Graphics_Demo\OpenglGraphicsDemo\Release\OpenGLShaderProject.exe

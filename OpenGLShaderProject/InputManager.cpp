@@ -138,7 +138,7 @@ void InputManager::update() {
 					m_MouseClickState = 1;
 				}else if (events.button.button == SDL_BUTTON_RIGHT) {
 					m_MouseClickState = 2;
-				}
+				}				
 			}
 			case SDL_MOUSEMOTION: {
 

@@ -1,4 +1,12 @@
-﻿  CameraClass.cpp
-d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): warning C4200: nonstandard extension used: zero-sized array in struct/union
-  d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\shadermanager.h(77): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+﻿  InputManager.cpp
+d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\inputmanager.cpp(149): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+d:\everything\games n such tested\githubstuffs\graphics_demo\openglgraphicsdemo\openglshaderproject\inputmanager.cpp(150): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   OpenGLShaderProject.vcxproj -> D:\Everything\Games N Such Tested\GitHubStuffs\Graphics_Demo\OpenglGraphicsDemo\Debug\OpenGLShaderProject.exe
