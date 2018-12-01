@@ -106,6 +106,7 @@ void MenuState::SetUpObjects(){
 //------------------------------------------------------------------------------------------------------
 bool MenuState::OnEnter(){
 	DrawHelp = true;
+	
 
 	TheFloor.SetVecs(glm::vec3(-10.0f, -0.5f, -10.0f), glm::vec3(10.0f, -0.5f, 10.0f));
 	TheFloor.MakeFloorIDs();
@@ -152,10 +153,11 @@ bool MenuState::Update()
 	const Uint8* keys = TheInput::Instance()->GetKeyStates();
 	int button = TheInput::Instance()->GetbuttonStatesFinal();
 	int trigger = TheInput::Instance()->GetTriggerState();
+	int mouseButton = TheInput::Instance()->GetMouseClickState();
 	
 	if (keys[SDL_SCANCODE_ESCAPE]) {
 		m_isActive = m_isAlive = false;
-		std::cout << "q is being pressed " << std::endl;
+		std::cout << "Escape is being pressed " << std::endl;
 	}
 	else if (button == SDL_CONTROLLER_BUTTON_BACK) {
 		m_isActive = m_isAlive = false;
@@ -177,6 +179,12 @@ bool MenuState::Update()
 	}
 	else if (trigger == 2) {
 		CrossHatchText.SetEverythingCrossHatch(true);
+	}
+	else if (mouseButton == 1) {
+		DrawHelp = false;
+	}
+	else if (mouseButton == 2) {
+		DrawHelp = true;
 	}
 	theLighter.Update();
 	mod_Table.Update();

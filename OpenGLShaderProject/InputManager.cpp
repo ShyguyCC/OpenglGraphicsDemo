@@ -38,8 +38,16 @@ Uint8 InputManager::GetButtonStates()
 
 void InputManager::update() {
 
+
+//	std::cout << SDL_MouseButtonEvent << "  this is mouse state update " << std::endl;
+	
+
+
+
 	buttonReseter();
 	SDL_Event events;
+
+
 	if (!SDL_PollEvent(&events))
 	{
 		SDL_Delay(1);
@@ -125,23 +133,32 @@ void InputManager::update() {
 					}
 				}
 			}
+			case SDL_MOUSEBUTTONDOWN: {
+				if (events.button.button == SDL_BUTTON_LEFT) {
+					m_MouseClickState = 1;
+				}else if (events.button.button == SDL_BUTTON_RIGHT) {
+					m_MouseClickState = 2;
+				}
+			}
+			case SDL_MOUSEMOTION: {
+
+				m_mouseVol.x = events.motion.xrel;
+				m_mouseVol.y = events.motion.yrel;
+			}
 		}
 	}
+	std::cout << m_mouseVol.x << " = Mouse x. " << m_mouseVol.y << " = mouse y." << std::endl;
 }
 
 void InputManager::buttonReseter() {
 	buttonA = false;
 	buttonB = false;
 
-
-
-
-
-
+	m_mouseVol.x = 0;
+	m_mouseVol.y = 0;
 }
 
 int InputManager::GetbuttonStatesTwo() {
-
 
 	if (buttonA) {
 		return SDL_CONTROLLER_BUTTON_A;
@@ -152,4 +169,8 @@ int InputManager::GetbuttonStatesTwo() {
 
 
 	return -1;
+}
+
+void InputManager::MouseUpdate(const glm::vec2 & newMousePostion) {
+
 }

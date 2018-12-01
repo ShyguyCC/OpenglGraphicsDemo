@@ -22,7 +22,9 @@ void CameraClass::Update(){
 	int button = TheInput::Instance()->GetbuttonStatesFinal();
 	int LeftStick = TheInput::Instance()->GetLeftStickState();
 	int RightStick = TheInput::Instance()->GetRightStickState();
+	glm::vec2 mouseVol = TheInput::Instance()->GetMouseVol();
 
+	//Edit note, need to put this into better code, case switch statments.
 	if (LeftStick == 1) {
 		camPosition += camRotation * 0.1f;
 	}
@@ -86,6 +88,9 @@ void CameraClass::Update(){
 	}else if (Yaw <= -360) {
 		Yaw = 0;
 	}
+
+	Yaw += mouseVol.x / 10;//yaw
+	Pitch -= mouseVol.y / 10;//pitch
 
 
 	camRotation.x = cos(glm::radians(Pitch)) * cos(glm::radians(Yaw));

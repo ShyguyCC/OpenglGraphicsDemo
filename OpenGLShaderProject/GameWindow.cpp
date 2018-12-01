@@ -221,6 +221,7 @@ void GameWindow::CreatingWindowAndAttributesWithFile(){
 		std::cout << "glew didnt work" << std::endl;
 	}
 	// -------------------------------------------------------------------------------------------------------------------
+	SDL_SetRelativeMouseMode(SDL_TRUE); // note, this hides the mouse.
 
 	glEnable(GL_DEPTH_TEST);
 	TheCamera::Instance()->projectionFunction(WindowHight, WindowWidth, true); // this sets up the camera as a 3d.
